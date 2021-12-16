@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+
+
+body{
+background-image: url("images/water.jfif");
+background-size: cover;
+font-family: Roboto;
+background-repeat: no-repeat;
+
+}
+.wrap{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+background-image: linear-gradient(to bottom, rgba(0,0,0,0.3)),rgba(0,0,0,0.6);
+padding:10px 25px 25px 20px;
+}
+
+header{
+display: flex;
+justify-content: center;
+align-items: center;
+padding:45px 15px 30px;
+
+}
+.search-box{
+    padding:6px 12px 6px 15px;
+    width: 100%;
+    max-width: 280px;
+    border:none;
+    outline: none;
+    background-color:rgba(0, 0, 0, 0.61) ;
+    transition: 0.2s ease-in-out;
+    font-size: 18px;
+    border-radius: 15px;
+    font-weight: 300;
+    color:white;
+
+}
+
+header input:focus{
+background-color: rgba(255, 255, 255, 0.685);
+color:black;
+}
+
+main{
+display: flex;
+flex: 1 2 100%;
+padding:5px 40px 100px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.city{
+padding: 5px;
+}
+.location .city{
+color: #fff;
+font-size: 50px;
+
+}
+
+.location .date{
+    color: #fff;
+ font-size: 14px;
+    
+    }
+
+    .now .tem{
+ color:white;
+ font-size:90px;
+ font-weight: 800;
+ padding:20px  0 0 30px;
+    }
+
+   .now .weather {
+color: white;
+padding: 10px;
+font-size: 30px;
+font-weight: 600;
+    }
+    .now .hi-low{
+ color: white;
+ font-size: 16px;
+ font-weight: 400;
+    }
